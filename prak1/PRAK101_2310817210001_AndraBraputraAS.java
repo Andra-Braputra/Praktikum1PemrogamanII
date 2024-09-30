@@ -6,9 +6,9 @@ public class PRAK101_2310817210001_AndraBraputraAS {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int hari = 0, tahun = 0, tinggi = 0;
+        int hari = 0, tahun = 0, tinggi = 0, bulan = 0;
         double berat = 0;
-        String tempat = "", nama = "", bulan = "";
+        String tempat = "", nama = "";
 	        
 	        System.out.print("Masukkan Nama Lengkap: ");
 	        nama = scan.nextLine();
@@ -20,7 +20,7 @@ public class PRAK101_2310817210001_AndraBraputraAS {
 	        hari = scan.nextInt();
 	        
 	        System.out.print("Masukkan Bulan Lahir : ");
-	        bulan = scan.nextLine();
+	        bulan = scan.nextInt();
 	        
 	        System.out.print("Masukkan Tahun Lahir : ");
 	        tahun = scan.nextInt();
